@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Gfonct.c" open="1" top="0" tabpos="4">
+		<Cursor position="3974" topLine="111" />
+	</File>
+	<File name="Gfonct.h" open="1" top="0" tabpos="5">
+		<Cursor position="322" topLine="0" />
+	</File>
+	<File name="Sons.c" open="1" top="0" tabpos="1">
+		<Cursor position="6998" topLine="200" />
+	</File>
+	<File name="Sons.h" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="VerifFonctions.c" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="83" />
+	</File>
+	<File name="VerifFonctions.h" open="1" top="0" tabpos="6">
+		<Cursor position="403" topLine="12" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="3">
+		<Cursor position="46" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="JeuSdl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\JeuSdl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\JeuSdl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O" />
+			<Add option="-Wshadow" />
+			<Add option="-Winit-self" />
+			<Add option="-Wunreachable-code" />
+			<Add option="-Wswitch-default" />
+			<Add option="-Wmain" />
+			<Add option="-pedantic-errors" />
+			<Add option="-pedantic" />
+			<Add option="-Wfatal-errors" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-Wwrite-strings" />
+			<Add option="-Wstrict-prototypes" />
+			<Add option="-Wuninitialized" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib\SDL_image.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libfmodex.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib\SDL_ttf.lib" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib" />
+		</Linker>
+		<Unit filename="Gfonct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Gfonct.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Sons.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sons.h" />
+		<Unit filename="VerifFonctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VerifFonctions.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
